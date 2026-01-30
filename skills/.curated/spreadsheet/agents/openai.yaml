@@ -1,0 +1,21 @@
+interface:
+  display_name: "Spreadsheet Skill (Create, Edit, Analyze, Visualize)"
+  short_description: "Create, edit, and analyze spreadsheets"
+  icon_small: "./assets/spreadsheet-small.svg"
+  icon_large: "./assets/spreadsheet.png"
+
+dependencies:
+  tools:
+    - type: "tool"
+      value: "uv"
+      description: "uv Python package manager"
+    - type: "tool"
+      value: "soffice"
+      description: "LibreOffice CLI for document conversion"
+    - type: "tool"
+      value: "pdftoppm"
+      description: "Poppler pdftoppm for PDF rendering"
+
+ownership:
+  name: "Codex Team"
+  url: "https://openai.com/codex/"

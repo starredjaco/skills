@@ -1,0 +1,18 @@
+interface:
+  display_name: "PDF Skill"
+  short_description: "Create, edit, and review PDFs"
+  icon_small: "./assets/pdf.png"
+  icon_large: "./assets/pdf.png"
+
+dependencies:
+  tools:
+    - type: "tool"
+      value: "uv"
+      description: "uv Python package manager"
+    - type: "tool"
+      value: "pdftoppm"
+      description: "Poppler pdftoppm for PDF rendering"
+
+ownership:
+  name: "Codex Team"
+  url: "https://openai.com/codex/"
