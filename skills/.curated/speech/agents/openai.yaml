@@ -4,15 +4,6 @@ interface:
   icon_small: "./assets/speech-small.svg"
   icon_large: "./assets/speech.png"
 
-dependencies:
-  tools:
-    - type: "tool"
-      value: "uv"
-      description: "uv Python package manager"
-    - type: "env_var"
-      value: "OPENAI_API_KEY"
-      description: "OpenAI API key"
-
 ownership:
   name: "Codex Team"
   url: "https://openai.com/codex/"

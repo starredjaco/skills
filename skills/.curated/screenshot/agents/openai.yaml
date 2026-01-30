@@ -4,24 +4,6 @@ interface:
   icon_small: "./assets/screenshot-small.svg"
   icon_large: "./assets/screenshot.png"
 
-dependencies:
-  tools:
-    - type: "tool"
-      value: "screencapture"
-      description: "macOS screenshot CLI"
-    - type: "tool"
-      value: "scrot"
-      description: "Linux screenshot CLI"
-    - type: "tool"
-      value: "gnome-screenshot"
-      description: "GNOME screenshot CLI"
-    - type: "tool"
-      value: "import"
-      description: "ImageMagick import for screenshots"
-    - type: "tool"
-      value: "powershell"
-      description: "PowerShell (Windows screenshot helper)"
-
 ownership:
   name: "Codex Team"
   url: "https://openai.com/codex/"
